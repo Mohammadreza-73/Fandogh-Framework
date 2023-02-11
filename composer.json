@@ -1,0 +1,38 @@
+{
+    "name": "m.rahimi/fandogh-framework",
+    "description": "Fandogh core framework",
+    "keywords": ["php", "framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammadreza-73",
+            "email": "mohammadreza.rahimi93@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "vlucas/phpdotenv": "^5.3",
+        "catfan/medoo": "^2.1",
+        "hisorange/browser-detect": "^4.5",
+        "nesbot/carbon": "^2.66",
+        "symfony/console": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
